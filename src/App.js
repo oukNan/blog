@@ -14,7 +14,6 @@ import {auth} from './firebaseConfig';
 function App() {
 
   const [isAuth, setIsAuth] = useState(false);
- 
   const signUserOut = () => {
     signOut( auth).then(() => {
       localStorage.clear();
