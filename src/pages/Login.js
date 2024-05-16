@@ -20,7 +20,7 @@ const signInWithGoogle = () => {
         <button className='login-with-google-btn' onClick={signInWithGoogle}>Sign In</button>
     </div>
 
-    <div className='authorizedOnline'>
+    <div className='loginPAge'>
         <p>History</p>
       </div>
 
