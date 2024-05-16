@@ -31,6 +31,7 @@ function App() {
           <>
           <Link to="/CreatePost">Create Post</Link>
           <Link to="/Record">Pics</Link>
+          <Link to="/History">History</Link>
           <button onClick={signUserOut}>Log Out</button>
           
           </>
